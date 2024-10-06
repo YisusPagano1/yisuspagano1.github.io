@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: #f9f3f0; /* Color de fondo cálido */
+    color: #333; /* Color de texto */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #b85c38; /* Títulos en color cálido */
+}
+
+header {
+    background-color: #d4996a; /* Encabezado en tono cálido */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección general */
+section {
+    max-width: 800px; /* No ocupa toda la pantalla */
+    margin: 40px auto; /* Centramos cada sección y separamos verticalmente */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #e0c097; /* Bordes suaves */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #b85c38; /* Fondo cálido para encabezados */
+    color: white;
+}
+
+td {
+    background-color: #fdf4f0; /* Fondo suave para las celdas */
+}
+
+/* Imágenes y videos */
+img, video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para imágenes/videos */
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #d4996a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 40px; /* Separación del contenido */
+}
+
+/* Formularios */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e0c097;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #b85c38;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4996a; /* Efecto hover en el botón */
+}
+
+/* Ajuste de espacios para secciones */
+#parrafos, #tabla, #multimedia, #formularios {
+    margin-bottom: 40px;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 600px) {
+    section {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+}
